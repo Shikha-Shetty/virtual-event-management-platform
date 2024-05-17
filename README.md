@@ -5,15 +5,15 @@ A virtual event management platform focusing on user registration, event schedul
 
 This project provides the following API's:
 
-|           Endpoint  | Description                                                    |
-| ------------------ :| :------------------------------------------------------------- |
-|   `POST /register`  | Register a new user.                                           |
-|      `POST /login`  | Log in a user.                                                 |
-|     `POST /events`  | Create a new event for the logged-in user.                     |
-|      `GET /events`  | View all events for the logged-in user.                        |
-| `GET /events/:id`   | View specific event for the logged-in user.                    |
-| `PATCH /events/:id` | Update specific event for the logged-in user.                  |
-| `DELETE /events/:id`| Delete specific event for the logged-in user.                  |
+|           Endpoint   | Description                                                    |
+| -------------------: | :------------------------------------------------------------- |
+|   `POST /register`   | Register a new user.                                           |
+|      `POST /login`   | Log in a user.                                                 |
+|     `POST /events`   | Create a new event for the logged-in user.                     |
+|      `GET /events`   | View all events for the logged-in user.                        |
+| `GET /events/:id`    | View specific event for the logged-in user.                    |
+| `PATCH /events/:id`  | Update specific event for the logged-in user.                  |
+| `DELETE /events/:id` | Delete specific event for the logged-in user.                  |
 
 
 ## Installation
